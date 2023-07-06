@@ -11,6 +11,7 @@ import { PageEffects } from './page/+state/page.effects';
 // Components
 import { ModalComponent } from './page/modal/modal.component';
 import { WidgetComponent } from './page/widget/widget.component';
+import {InfoCardComponent} from './page/widget/info-card/info-card.component'
 
 @NgModule({
   imports: [
@@ -26,7 +27,8 @@ import { WidgetComponent } from './page/widget/widget.component';
     PageComponent,
     // Components
     ModalComponent,
-    WidgetComponent
+    WidgetComponent,
+    InfoCardComponent,
   ],
 })
 export class MainModule { }
